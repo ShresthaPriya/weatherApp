@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-App</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="container">
+       <div class="search">
+                <input type="text" name="name" placeholder="Search the city name..." spellcheck="false">
+              <button class="button"><i class="fa fa-search"></i></button>
+            </div>
+
+        <div class="content">
+          <div class="date_time">
+            <div class="time" id="time">
+                12:30 <span id="am-pm">PM</span>
+            </div>
+            <div class="date" id="date">
+                Monday, 29 March
+            </div>
+            <div class="others" id="weather">
+                <div class="weather-info">
+                    <div>Humidity</div>
+                    <div>94.54%</div>
+                </div>
+                <div class="weather-info">
+                    <div>Wind-Speed</div>
+                    <div>94 km/hr</div>
+                </div>
+                <div class="weather-info">
+                    <div>UV index</div>
+                    <div>Low</div>
+                </div>
+            </div>
+          </div>
+
+          <div class="place-container">
+            <div class="timezome" id="timezone">Kathmandu</div>
+            <div class="latitude" id="latitude">23East</div>
+          </div>
+        </div>
+        <div class="furture-forecast">
+            <div class="today" id="current">
+                <img src="" alt="icon" class="w-icon">
+                <div class="day">Monday</div>
+                <div class="temp">Night - 25&#176; C</div>
+                <div class="temp">Day - 21&#176; C</div>
+            </div>
+            <!-- <div class="weather-forecast" id="weather-forecast">
+                <div class="weather-forecast-item">
+                <div class="day">Monday</div>
+                <img src="" alt="icon" class="w-icon">
+                <div class="temp">Night - 27&#176; C</div>
+                <div class="temp">Day - 23&#176; C</div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <script src="JS/script.js"></script>
+</body>
+</html>
