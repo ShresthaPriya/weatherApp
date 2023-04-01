@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather-App</title>
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
     <div class="container">
@@ -20,46 +22,83 @@
                 12:30 <span id="am-pm">PM</span>
             </div>
             <div class="date" id="date">
-                Monday, 29 March
+                Sunday, 29 March
             </div>
             <div class="others" id="weather">
                 <div class="weather-info">
+                    <img src="https://openweathermap.org/img/wn/01d.png" alt="Temperature icon" class="w-icon">
+                    <div>Temperature</div>
+                    <div>30&#176</div>
+                </div>
+                <div class="weather-info">
+                    <img src="https://openweathermap.org/img/wn/50d.png" alt="Humidity icon" class="w-icon">
                     <div>Humidity</div>
                     <div>94.54%</div>
                 </div>
                 <div class="weather-info">
+                    <img src="https://openweathermap.org/img/wn/01d.png" alt="Wind speed icon" class="w-icon">
                     <div>Wind-Speed</div>
                     <div>94 km/hr</div>
                 </div>
-                <div class="weather-info">
-                    <div>UV index</div>
-                    <div>Low</div>
-                </div>
+                
             </div>
           </div>
 
+          <!-- <div class="weather-condition">
+           <div> <img src=" https://openweathermap.org/img/wn/10d@2x.png" alt="icon" class="w-icon"></div><br>
+            <div><p>Mostly cloudy with a chance of rain</p></div>
+        </div> -->
+
           <div class="place-container">
-            <div class="timezome" id="timezone">Kathmandu</div>
-            <div class="latitude" id="latitude">23East</div>
+            <div class="timezone" id="timezone"><i class="fa-solid fa-location-dot"></i>Kathmandu </div>
+            <div class="latitude" id="latitude">23&#176East</div>
           </div>
         </div>
         <div class="furture-forecast">
             <div class="today" id="current">
-                <img src="" alt="icon" class="w-icon">
+                <img src=" https://openweathermap.org/img/wn/10d@2x.png" alt="icon" class="w-icon">
+                <div class="others">
                 <div class="day">Monday</div>
                 <div class="temp">Night - 25&#176; C</div>
                 <div class="temp">Day - 21&#176; C</div>
             </div>
-            <!-- <div class="weather-forecast" id="weather-forecast">
+            </div>
+            <div class="weather-forecast" id="weather-forecast">
                 <div class="weather-forecast-item">
-                <div class="day">Monday</div>
-                <img src="" alt="icon" class="w-icon">
+                <img src=" https://openweathermap.org/img/wn/10d@2x.png" alt="icon" class="w-icon">
+                <div class="day">Tuesday</div>
                 <div class="temp">Night - 27&#176; C</div>
                 <div class="temp">Day - 23&#176; C</div>
                 </div>
-            </div> -->
+            </div>
+            <div class="weather-forecast" id="weather-forecast">
+                <div class="weather-forecast-item">
+                <img src=" https://openweathermap.org/img/wn/10d@2x.png" alt="icon" class="w-icon">
+                <div class="day">Wednesday</div>
+                <div class="temp">Night - 27&#176; C</div>
+                <div class="temp">Day - 23&#176; C</div>
+                </div>
+            </div>
+            <div class="weather-forecast" id="weather-forecast">
+                <div class="weather-forecast-item">
+                <img src=" https://openweathermap.org/img/wn/10d@2x.png" alt="icon" class="w-icon">
+                <div class="day">Wednesday</div>
+                <div class="temp">Night - 27&#176; C</div>
+                <div class="temp">Day - 23&#176; C</div>
+                </div>
+            </div>
+            <div class="weather-forecast" id="weather-forecast">
+                <div class="weather-forecast-item">
+                <img src=" https://openweathermap.org/img/wn/10d@2x.png" alt="icon" class="w-icon">
+                <div class="day">Wednesday</div>
+                <div class="temp">Night - 27&#176; C</div>
+                <div class="temp">Day - 23&#176; C</div>
+                </div>
+            </div>
         </div>
     </div>
+
     <script src="JS/script.js"></script>
+    <script src="https://kit.fontawesome.com/40d55552c3.js" crossorigin="anonymous"></script>
 </body>
 </html>
